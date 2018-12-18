@@ -1,0 +1,30 @@
+/* 
+font-family: 'Oswald', sans-serif; - use for decorative fonts on train ticket
+font-family: 'B612 Mono', monospace; -Use for the listings on the table
+font-family: 'Special Elite', cursive; -Use for the font that the user types in the entry
+font-family: 'PT Mono', monospace; -use for finished table
+font-family: 'Kreon', serif; -the rest of the page
+
+background-color: #c29b38;
+background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+        -use above image and color for "train ticket"
+
+*/
+
+
+
+
+body{
+    background-image: url(../images/locomotive-railroad-railway-72594.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+#table{
+    background-image: url(../images/corrugation.png);
+    background-color: black;
+    color: white;
+    font-family: 'PT Mono', monospace;
+
+}
